@@ -1,0 +1,45 @@
+baseURL = "http://www.seibostudios.se/"
+languageCode = "en-us"
+title = "Seibo Software Studios"
+theme = "airspace-hugo"
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Services"
+    url = "/Service"
+  [[menu.header]]
+    weight = 3
+    name = "About us"
+    url = "/about-us"
+
+# The site's parameters
+[params]
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "Software &amp; digital solutions studio"
+    subtitle = "We love creating software and leading digitalization projects that have real business impact for our clients"
+
+  [params.wrapper]
+    enable = true
+    title = "About Us"
+    italic = "We are all senior consultants, each with over 20 years of experience in working with software development and digitalization projects."
+    paragraph = "Our experience covers many business areas and technology stacks. We have extensive experience in software and product development as well as project management and agile leadership. We have worked with government agencies, private businesses and startups. We have worked as programmers, software engineers, tech leads, project managers, product owners and advisors on digital strategies. We are based in Stockholm, Sweden and work closely together with our collaboration network of other Swedish software companies, and also with our special collaboration partner Sophilabs, based in Montevideo, Uruguay and Brooklyn, New York."
+
+  [params.feature]
+    enable = true
+    title = "Our core beliefs"
+    content = "We strongly believe in the principles of the agile manifesto; Individuals and interactions over processes and tools, Working software over comprehensive documentation, Customer collaboration over contract negotiation and Responding to change over following a plan. That is, while there is value in the items on the right, we value the items on the left more. The best digital solutions are created when a solid knowledege of the business is married to a solid knowledge of modern software development. Be concrete and focus on business results. Treat software as the engine of digitalization. Be agile and deliver business value as continously as is possible. Finally we believe it is essential to have fun and be excellent to each other in order to have a creative work environment and deliver great results!"
+
+  [params.call]
+    enable = true
+    title = "Contact information"
+    paragraph = "Address: Skidskyttevägen 6, S-12949 Hägersten (Stockholm), Telephone: +46 (0)730 787 035, Orgnr: 556734-1499" 
+
+

@@ -1,0 +1,45 @@
+enable: true
+title: Services
+subtitle: >
+  We would be happy to help you in any of these roles or areas
+content:
+
+  - icon: ion-image
+    name: Digital strategies
+    text: >
+        Are you wondering about how to evolve your business digitally? Web applications, mobile apps or API:s? Using inhouse, consultant or offshore based development? How to organize development, operations and support?
+
+  - icon: ion-person
+    name: Project management
+    text: >
+      Do you need a project manager for a digital project? We can also help you set up a new project adapted to your specific business needs. We can also help you in the process of staffing and recruiting people to your project.
+
+  - icon: ion-coffee
+    name: Feasability studies
+    text: >
+      Do you need a feasability study or a prototype based project in order to make an important business decision? We can help you with procuring digital services and software products or performing software due dilligence.
+
+  - icon: ion-compass
+    name: Tech lead
+    text: >
+      Do you need a tech lead to lead a team of developers? Do you need help in setting up, or reviewing, one of your software development projects or in introducing modern agile software development and CI/CD practices?
+
+  - icon: ion-heart
+    name: Open source, data and standards
+    text: >
+      Are you curious about how free and open software or open standards and protocols can be the engine of your digitalization? Are you unsure about how to evaluate the costs and risks involved with proprietary and open source software solutions?
+
+  - icon: ion-medkit
+    name: eHealth solutions
+    text: >
+      Do you need help in developing or evaluating eHealth solutions? We have extensive experience in developing decision support systems for medical prescriptions, access control systems for medical health record systems and many other eHealth solutions.
+
+  - icon: ion-cloud
+    name: Web services and API:s
+    text: >
+      Are you struggling with managing system integration and working with many different distributed systems? Do you need help in developing API:s or micro-services? Are you wondering how to leverage the potential of HTTP API:s for your business?
+
+  - icon: ion-laptop
+    name: Software development
+    text: >
+      Do you need software developers? UX, frontend or backend? Linux, mobile or the web? C, Eiffel, Python, HTML/CSS/ JavaScript or other fun languages? SQL or no-SQL databases? Distributed systems and API:s? Data or transfer file formats like JSON, XML or CSV?
