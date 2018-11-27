@@ -15,13 +15,23 @@ $ sudo apt-get install nginx
 
 # Setup
 
+The website is maintained in the git project [https://github.com/seibo/www.seibostudios.se].
+
+The project is cloned on the droplet server at ~/paco/github/www.seibostudios.se and
+the static pages are served from ~/paco/github/www.seibostudios.se/public.
+
 The domain names [seibostudio.se](http://seibostudios.se) and www.seibostudios.se are set up to point to the IP-adress of the DigitalOcean droplet server.
 
 Hugo and Nginx are installed on the droplet server.
 
-This github repository is cloned on the droplet server.
+## Todo
 
-A github webhook is set up to the droplet server so that the git repository on the droplet server is automatically updated and Hugo is run, whenever a push to the github repository is made.
+Set up a github webhook to ping the droplet server whenever a push to master is done to the github repository, and add a script that then rebuilds the website on the droplet server. Possibly by using webhook by adnanh.
+
+See:
+
+ * https://github.com/adnanh/webhook
+ * https://developer.github.com/webhooks/
 
 # How to update contents
 
@@ -36,6 +46,8 @@ $ hugo server -D
 
 When you're done changing and testing stuff, commit and push.
 
-## Minor changes to contents
+Finally, ssh to the droplet server and rebuild the website with:
+```
+~/paco/github/www.seibostudios.se$ hugo
+```
 
-Making minor changes or corrections to the contents can be done directly in the web interface on github for this repository.
