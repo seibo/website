@@ -1,0 +1,18 @@
+<!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <p>Copyright &copy; Seibo Software Studios AB.</p>
+        <p>Website built with <a href="https://gohugo.io/">Hugo</a>. Theme based on a original theme designed and developed by <a href="https://themefisher.com/">Themefisher</a>.</p>
+      </div>
+    </div>
+  </div>
+</footer>

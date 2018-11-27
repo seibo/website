@@ -11,8 +11,8 @@ theme = "airspace-hugo"
     url = "/Service"
   [[menu.header]]
     weight = 3
-    name = "About us"
-    url = "/about-us"
+    name = "Contact"
+    url = "/contact"
 
 # The site's parameters
 [params]
@@ -40,6 +40,8 @@ theme = "airspace-hugo"
   [params.call]
     enable = true
     title = "Contact information"
-    paragraph = "Address: Skidskyttevägen 6, S-12949 Hägersten (Stockholm), Telephone: +46 (0)730 787 035, Orgnr: 556734-1499" 
-
+    email = "info@seibostudios.se"
+    phone = "+46 (0) 730787035"
+    orgnr = "Orgnr: 556734-1499"
+    address = "Skidskyttevägen 6, S-12949 Hägersten (Stockholm)"
 

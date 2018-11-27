@@ -1,0 +1,34 @@
+<!-- Call to action Start -->
+{{ with .Site.Params.call }}
+<section id="call-to-action">
+  <div class="container">
+    <div id="contact-box" class="row">
+      <div class="col-sm-12">
+        <div class="block">
+          <ul class="address-block">
+            <li>
+              <i class="fa fa-envelope-o"></i>{{ .email }}
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>{{ .phone }}
+            </li>
+            <li>
+              <i class="fa fa-info-circle"></i>{{ .orgnr }}
+            </li>
+            <li>
+              <i class="fa fa-map-marker"></i>{{ .address }}
+            </li>
+          </ul>
+          <ul class="social-icons">
+          {{ range .social }}  
+            <li>
+              <a href="{{ .url }}"><i class="fa {{ .icon }}"></i></a>
+            </li>
+          {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
