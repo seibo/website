@@ -21,13 +21,12 @@
 		{{ partial "feature.html" . }}
 	{{ end }}
 
-
 	{{ if and .Site.Data.service .Site.Data.service.enable }}
 		{{ partial "service.html" . }}
 	{{ end }}
 
-	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
-		{{ partial "call-to-action.html" . }}
+	{{ if and .Site.Params.contact .Site.Params.contact.enable }}
+		{{ partial "contact.html" . }}
 	{{ end }}
 
 	{{ if .Site.Data.testimonial.enable }}

@@ -8,7 +8,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 2
     name = "Services"
-    url = "/Service"
+    url = "/service"
   [[menu.header]]
     weight = 3
     name = "Contact"
@@ -37,9 +37,10 @@ theme = "airspace-hugo"
     title = "Our core beliefs"
     content = "We strongly believe in the principles of the agile manifesto; Individuals and interactions over processes and tools, Working software over comprehensive documentation, Customer collaboration over contract negotiation and Responding to change over following a plan. That is, while there is value in the items on the right, we value the items on the left more. The best digital solutions are created when a solid knowledege of the business is married to a solid knowledge of modern software development. Be concrete and focus on business results. Treat software as the engine of digitalization. Be agile and deliver business value as continously as is possible. Finally we believe it is essential to have fun and be excellent to each other in order to have a creative work environment and deliver great results!"
 
-  [params.call]
+  [params.contact]
     enable = true
-    title = "Contact information"
+    title = "Contact Us"
+    subtitle = "Don't hesitate to get in touch!"
     email = "info@seibostudios.se"
     phone = "+46 (0) 730787035"
     orgnr = "Orgnr: 556734-1499"
