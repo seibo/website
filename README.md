@@ -17,8 +17,7 @@ $ sudo apt-get install nginx
 
 The website is maintained in the git project [https://github.com/seibo/www.seibostudios.se].
 
-The project is cloned on the droplet server at ~/paco/github/www.seibostudios.se and
-the static pages are served from ~/paco/github/www.seibostudios.se/public.
+The project is cloned on the droplet server **seibo-01** and the static pages are served from /var/www/website/www.seibostudios.se/public.
 
 The domain names [seibostudio.se](http://seibostudios.se) and www.seibostudios.se are set up to point to the IP-adress of the DigitalOcean droplet server.
 
@@ -45,9 +44,3 @@ $ hugo server -D
 ```
 
 When you're done changing and testing stuff, commit and push.
-
-Finally, ssh to the droplet server and rebuild the website with:
-```
-~/paco/github/www.seibostudios.se$ hugo
-```
-
